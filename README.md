@@ -22,6 +22,14 @@ git remote add resin git@git.resin.io:username/test.git
 
 You should be able to `git push resin master` to your devices!
 
+### Requirement env
+
+- PORT
+
+## How to run
+
+- Go to your RPi IP address (dont forget to put PORT) inside your browser
+
 **Note**: If you used an already existing application that you've previously pushed other code
 to you will have to do `git push --force resin master` the first time to delete the previous
 commits.
